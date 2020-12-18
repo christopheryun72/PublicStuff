@@ -1,0 +1,8 @@
+CREATE TABLE BusySquirrelsTable (
+	ID serial PRIMARY KEY,
+	NAME varchar (300) NOT NULL,
+	LINK varchar (500) NOT NULL,
+	CURRENTPRICE varchar (10) NOT NULL,
+	DISCOUNT varchar (10) NOT NULL,
+	TIME timestamp NOT NULL DEFAULT NOW()
+);
